@@ -39,9 +39,11 @@ main{
     max-width:1072px;
     margin:0 auto;
 }
+section{
+    margin-top:100px;
+}
 /* section failure */
 .failure{
-    margin-top: 100px;
     display: flex;
     gap:70px;
 }
@@ -72,4 +74,30 @@ ul li{
 ul li i{
     color:green;
     margin-right: 5px;
+}
+.my-plans{
+    margin-top: 100px;
+    text-align: center;
+}
+.my-plans-heading{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+.plans-container{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.plan>h3{
+    margin:18px 0;
+}
+
+/* section posive mindset */
+.positive-mindset{
+    background-image: url('../images/watch.png');
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    height: 300px;
 }
