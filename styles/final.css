@@ -2,13 +2,13 @@
     margin: 0;
     font-family: 'Work Sans';
 }
-
+/* heading css */
 .banner{
 background-image: url('../images/banner/banner3.png');
 height: 608px;
 display: flex;
 justify-content: space-between;
-padding: 50px 50px;
+padding: 100px 50px;
 }
 .heading{
     text-align: right;
@@ -34,4 +34,42 @@ font-size: 20px;
 padding: 5px 20px;
 border:none;
 border-radius: 5px;
+}
+main{
+    max-width:1072px;
+    margin:0 auto;
+}
+/* section failure */
+.failure{
+    margin-top: 100px;
+    display: flex;
+    gap:70px;
+}
+.failure-heading{
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failure-paragraph{
+    margin-top:24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:#444343;
+}
+ul{
+    margin-top:18px;
+    padding:0;
+}
+ul li{
+    list-style: none;
+    margin:0;
+}
+ul li i{
+    color:green;
+    margin-right: 5px;
 }
