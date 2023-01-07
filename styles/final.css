@@ -100,4 +100,47 @@ ul li i{
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     border-radius: 8px;
     height: 300px;
+    padding:50px;
+    
+}
+.positive-heading{
+    color: white;
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+
+/* footer */
+.footer-container{
+    padding: 100px;
+    background: #151414;
+    height: 577px;
+    display:flex;
+    justify-content: space-around;
+    color:#F8F8F8;
+}
+.footer-left>h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+font-size: 45px;
+}
+.footer-left>p{
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    display: block;
+    margin-top: 20px;
+    background: black;
+    color:#FFFFFF;
+    border:1px solid white;
+    padding: 10px 30px;
+    border-radius: 8px;    
+}
+input[type="submit"]{
+    padding:15px 20px;
+    background: #005FAC;
+    border-radius: 8px;
+    color:#F8F8F8;
+    margin-top: 12px;
+    
 }
