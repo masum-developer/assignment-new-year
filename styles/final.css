@@ -5,10 +5,8 @@
 /* heading css */
 .banner{
     background-image: url('../images/banner/banner3.png');
-    height: 608px;
-    /* display: flex;
-    justify-content: space-between; */
-    padding: 100px 50px;
+    height: 510px;
+    padding: 150px 60px;
 }
 .heading{
     text-align: right;
@@ -27,7 +25,7 @@
 }
 .btn-primary{
     margin-top: 30px;
-    height: 64px;
+    height: 55px;
     color:#005FAC;
     font-weight: 600;
     font-size: 20px;
