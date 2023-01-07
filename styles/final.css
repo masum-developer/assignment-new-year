@@ -4,11 +4,11 @@
 }
 /* heading css */
 .banner{
-background-image: url('../images/banner/banner3.png');
-height: 608px;
-display: flex;
-justify-content: space-between;
-padding: 100px 50px;
+    background-image: url('../images/banner/banner3.png');
+    height: 608px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
 }
 .heading{
     text-align: right;
@@ -30,10 +30,10 @@ padding: 100px 50px;
     height: 64px;
     color:#005FAC;
     font-weight: 600;
-font-size: 20px;
-padding: 5px 20px;
-border:none;
-border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border:none;
+    border-radius: 5px;
 }
 main{
     max-width:1072px;
@@ -42,6 +42,7 @@ main{
 section{
     margin-top:100px;
 }
+
 /* section failure */
 .failure{
     display: flex;
@@ -62,6 +63,26 @@ section{
     font-size: 16px;
     line-height: 26px;
     color:#444343;
+}
+/* personal Info */
+.my-experience-heading{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.my-experience{
+    background: linear-gradient(90deg, #151414 0%, rgba(0, 95, 172, 1) 100%);
+    display: flex;
+    justify-content:space-around;
+    color:white;
+    padding: 100px;
+    border-radius: 8px;
+
+}
+.personal{
+margin-bottom: 18px;
 }
 ul{
     margin-top:18px;
@@ -96,25 +117,28 @@ ul li i{
 
 /* section posive mindset */
 .positive-mindset{
-    background-image: url('../images/watch.png');
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    /* background-image: url('../images/watch.png'); */
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
+    background-repeat: no-repeat;
     border-radius: 8px;
     height: 300px;
-    padding:50px;
+    margin-bottom: 50px;
+    padding-left: 60px;
     
 }
 .positive-heading{
+    padding-top: 50px;
     color: white;
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
+    font-size: 40px;
+    line-height: 47px;
 }
 
 /* footer */
 .footer-container{
     padding: 100px;
     background: #151414;
-    height: 577px;
+    height: 377px;
     display:flex;
     justify-content: space-around;
     color:#F8F8F8;
